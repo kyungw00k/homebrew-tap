@@ -5,7 +5,6 @@
 class Proxytap < Formula
   desc "Rotating anonymous-proxy gateway with MITM detection"
   homepage "https://github.com/kyungw00k/proxytap"
-  version "0.1.1"
   license "MIT"
   head "https://github.com/kyungw00k/proxytap.git", branch: "master"
 
