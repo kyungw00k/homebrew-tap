@@ -13,7 +13,6 @@ brew install kyungw00k/tap/<name>
 | [nxconvert](https://github.com/kyungw00k/nxconvert) | Nintendo Switch NSP/XCI container converter (lossless repack, optional distribution rewrite) | `brew install nxconvert` |
 | [dbibackend](https://github.com/kyungw00k/dbibackend) | Install local titles into Nintendo Switch via USB | `brew install dbibackend` |
 | [upbit](https://github.com/kyungw00k/upbit) | AI-native CLI for Upbit cryptocurrency exchange | `brew install upbit` |
-| [sw](https://github.com/kyungw00k/stealth-wright) | Stealth Wright — silent browser automation CLI | `brew install sw` |
 | [apkpure](https://github.com/kyungw00k/apkpure) | Download APK files from APKPure | `brew install apkpure` |
 | [akwiki](https://github.com/kyungw00k/akwiki) | Personal wiki static site generator | `brew install akwiki` |
 | [juso](https://github.com/kyungw00k/juso) | Korean postal code lookup CLI | `brew install juso` |
