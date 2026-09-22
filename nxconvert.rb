@@ -5,20 +5,20 @@
 class Nxconvert < Formula
   desc "Nintendo Switch game library builder (multi-source collector, SQLite index, HTML export)"
   homepage "https://github.com/kyungw00k/nxconvert"
-  version "1.9.5"
+  version "1.9.6"
 
   on_macos do
     on_intel do
-      url "https://github.com/kyungw00k/nxconvert/releases/download/v1.9.5/nxconvert_darwin_amd64.tar.gz"
-      sha256 "bd008328ac3bd3a8c73f2102a9e622265993b5966f2d4a1a69cbf3dcb17a2607"
+      url "https://github.com/kyungw00k/nxconvert/releases/download/v1.9.6/nxconvert_darwin_amd64.tar.gz"
+      sha256 "5ce7970a9a3a784ab538608c79b51d63fa9acd1b6b37b1af1bda029cf0dac943"
 
       def install
         bin.install "nxconvert"
       end
     end
     on_arm do
-      url "https://github.com/kyungw00k/nxconvert/releases/download/v1.9.5/nxconvert_darwin_arm64.tar.gz"
-      sha256 "f4fcd5d2f9061c8d0e5f36ea124a39bedcd1e661f69251793a5e49957886c37c"
+      url "https://github.com/kyungw00k/nxconvert/releases/download/v1.9.6/nxconvert_darwin_arm64.tar.gz"
+      sha256 "2542bfb8bd8f41f00dda32ba698b23961b0baf06bf894ab31e302242c52f1afd"
 
       def install
         bin.install "nxconvert"
@@ -29,8 +29,8 @@ class Nxconvert < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kyungw00k/nxconvert/releases/download/v1.9.5/nxconvert_linux_amd64.tar.gz"
-        sha256 "c101e4efd5c6be38b501d872ed6f5fde9694ae714b1b0a4349b42b7f0f289f27"
+        url "https://github.com/kyungw00k/nxconvert/releases/download/v1.9.6/nxconvert_linux_amd64.tar.gz"
+        sha256 "d9a71855f26fa19f8460b7b8d8f8e18dfff6c105c2a10eb1eaa9b152275344f1"
 
         def install
           bin.install "nxconvert"
@@ -39,8 +39,8 @@ class Nxconvert < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kyungw00k/nxconvert/releases/download/v1.9.5/nxconvert_linux_arm64.tar.gz"
-        sha256 "254233018db65fa267304f4376afe1a85911be109acad3ad285a3405c983d810"
+        url "https://github.com/kyungw00k/nxconvert/releases/download/v1.9.6/nxconvert_linux_arm64.tar.gz"
+        sha256 "7bab988669c87173f064fcdea6a18a0b1a0affa860c91a41ff1a2a7f9390c5f6"
 
         def install
           bin.install "nxconvert"
