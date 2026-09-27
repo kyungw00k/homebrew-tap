@@ -9,14 +9,14 @@ cask "dbibackend" do
 
   app "dbibackend.app"
 
-  post_install do
+  postflight_steps do
     # The binary is ad-hoc signed until notarization is set up, so the
     # quarantine flag would make Gatekeeper block first launch with
     # "cannot check for malicious software". Strip it on install/upgrade.
     # Remove this block once the app is notarized.
-    system_command "xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/dbibackend.app"],
-                   must_succeed: false
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/dbibackend.app"],
+        must_succeed: false
   end
 
   zap trash: "~/.config/dbibackend"
